@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: insolvency-report
+    env: python
+    buildCommand: ""
+    startCommand: python insolvency_web_app.py
+    plan: free
